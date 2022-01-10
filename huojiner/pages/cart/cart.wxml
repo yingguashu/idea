@@ -1,0 +1,15 @@
+<view>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scal}}" markers="{{markers}}" bindmarkertap="markertap" enable-rotate="true" show-location="true" show-compass="true" enable-overlooking="true" enable-satellite="{{satellite}}" skew="{{skew}}" subkey="IMOBZ-UTRKQ-WJI5X-GMDUJ-ZVFEF-X6FPQ" layer-style="{{sty}}" bindtap="jwd">  <cover-view slot="callout">
+    <cover-view marker-id="1"></cover-view>
+    <cover-view marker-id="2"></cover-view>
+  </cover-view></map>
+  <view>
+    <switch bindchange="satellite" checked="{{false}}" data-satellite="false">开启卫星</switch>
+    <button size="mini" bindtap="fanhui">返回公司位置</button>
+    <switch bindchange="sty" checked="{{sty}}" data-sty="false">切换样式</switch>
+  </view>
+  <view>
+    <button >获取当前城市名</button>
+    <text></text>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+page{
+    height: 100%;
+}
+.cates{
+    height: 100;
+    .cates_container{
+        // 使用calc的时候要注意
+        height: ~'calc(100vh - 90rpx)';
+        display: flex;
+        // 继承父类的flex  子类 高度 100% flex
+        .left_menu{
+            flex: 2;
+            background-color: chocolate;
+            .menu_item{
+                height: 80rpx;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30rpx;
+            }
+            .active{
+                color: var(--themeColor);
+                border-left: 5px solid red;
+            }
+        }
+        // 继承父类的flex  子类 高度 100% flex
+        .right_menu{
+            flex: 5;
+            // background-color: cornflowerblue;
+            .goods_group{
+                .goods_title{
+                    height: 80rpx;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .goods_list{
+                    display: flex;
+                    flex-wrap: wrap;
+                    navigator{
+                        width: 33.33%;
+                        text-align: center;
+                        image{
+                            width: 50%;
+                            border-radius: 15rpx;
+                            .goods_name{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

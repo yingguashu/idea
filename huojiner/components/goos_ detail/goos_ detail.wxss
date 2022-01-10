@@ -1,0 +1,7 @@
+.goos_top{
+  margin: 10rpx;
+}
+.goos_top text{
+  font-size: 30rpx;
+  color: #3a1ce6;
+}

@@ -1,0 +1,69 @@
+<view class="pyg_index">
+  <SearchInput></SearchInput>
+  <view class="index_swiper">
+    <!-- swiper存在默认的高度和宽带 -->
+    <swiper indicator-dots="true" indicator-color="c0c0c0" autoplay="true" interval="2000" easing-function="easeInOutCubic" circular="true">
+      <swiper-item>
+        <image mode="heightFix" src="//ntemimg.wezhan.cn/contents/sitefiles2040/10203222/images/-43437.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="../../image/ren.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="//ntemimg.wezhan.cn/contents/sitefiles2040/10203222/images/-43550.jpg"></image>
+      </swiper-item>
+    </swiper>
+    <!-- 导航开始 -->
+    <view class="index_cate">
+      <navigator url="https://www.longsanyuan.com/" bindtap="gosanyuan">
+        <image mode="widthFix" src="../../image/tuandui.png"></image>
+        <text>优秀的团队</text>
+      </navigator>
+      <navigator url="">
+        <image mode="widthFix" src="../../image/jishu.png"></image>
+        <text>技术的支持</text>
+      </navigator>
+      <navigator url="">
+        <image mode="widthFix" src="../../image/fuwu.png"></image>
+        <text>一流的服务</text>
+      </navigator>
+      <navigator url="">
+        <image mode="widthFix" src="../../image/kexin.png"></image>
+        <text>核心的技术</text>
+      </navigator>
+    </view>
+    <!-- 导航结束 -->
+    <view class="a"></view>
+    <!-- 楼层开始 -->
+    <view class="index_floor">
+      <view class="floor_group">
+        <view class="floor_title">
+          <!-- <image></image> -->
+        </view>
+        <!-- 内容 -->
+        <view class="floor_list">
+          <navigator>
+            <image mode="scaleToFill"  src="//nwzimg.wezhan.cn/contents/sitefiles2047/10236252/images/21813694.jpg"></image>
+          </navigator>
+          <navigator>
+            <image mode="widthFix" src="//nwzimg.wezhan.cn/contents/sitefiles2047/10236252/images/22179800.png"></image>
+          </navigator>
+          <navigator>
+            <image mode="widthFix" show-menu-by-longpress="true" src="//nwzimg.wezhan.cn/contents/sitefiles2047/10236252/images/22179805.jpg"></image>
+          </navigator>
+          <navigator>
+            <image mode="widthFix" src="//nwzimg.wezhan.cn/contents/sitefiles2047/10236252/images/22179804.jpg"></image>
+          </navigator>
+          <navigator>
+            <image mode="widthFix" src="//nwzimg.wezhan.cn/contents/sitefiles2047/10236252/images/22179812.jpg"></image>
+          </navigator>
+        </view>
+      </view>
+    </view>
+    <!-- 楼层结束 -->
+    <view>
+      <view class="index_text"><text>公司简介</text></view>
+      <text class="text_te">1.提供稳定、可靠、智能、高效的产品与服务。\n\n2.专注于“IoT+工程监测”的智慧应用。\n\n3.国家高新技术企业：2017年起已获得软件著作权15项，发明专利3件，实用新型授权与申请17件，发明专利实审中9件。\n\n4.市场方向：基坑、隧道、管廊、高铁、地铁、桥梁、道路、大坝、铁塔、道路坍塌、风力发电、地质灾害、边坡、尾矿库、文物保护、历史建筑保护等工程从设计、施工到运维的全面智慧化监测。</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+.search_top{
+  height: 60rpx;
+  border-radius: 50rpx;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding-left: 15rpx; */
+  /* color: gray; */
+  /* background-color: aliceblue; */
+}
+.top_input{
+  border: 1px solid rebeccapurple;
+  width: 630rpx;
+  height: 100%;
+  border-radius: 50rpx;
+  justify-content: center; 
+  align-items: center;
+  padding-left: 15rpx;
+  color: gray;
+  background-color: aliceblue;
+}
+.search_top a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rpx;
+  font-size: 28rpx;
+  font-family:"微软雅黑";
+}

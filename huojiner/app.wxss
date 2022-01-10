@@ -1,0 +1,48 @@
+@import "./style/iconfont.wxss";
+
+/* 微信小程序不支持通配符 * */
+page,view,text,button,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+page{
+  /* 定义主题颜色 */
+  --themeColor:#ff77ff;
+}
+image{width: 100%;}
+@font-face {
+  font-family: "iconfont"; /* Project id 3083003 */
+  src: url('//at.alicdn.com/t/font_3083003_z6w9lf8z3on.woff2?t=1641368959550') format('woff2'),
+       url('//at.alicdn.com/t/font_3083003_z6w9lf8z3on.woff?t=1641368959550') format('woff'),
+       url('//at.alicdn.com/t/font_3083003_z6w9lf8z3on.ttf?t=1641368959550') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoucang1:before {
+  content: "\e647";
+}
+
+.icon-gouwuche:before {
+  content: "\e629";
+}
+
+.icon-kefu:before {
+  content: "\e608";
+}
+
+.icon-fenxiang:before {
+  content: "\e600";
+}
+
+.icon-shouye-shouye:before {
+  content: "\e610";
+}

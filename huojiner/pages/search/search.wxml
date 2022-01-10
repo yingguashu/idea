@@ -1,0 +1,5 @@
+<view class="search">
+  <view class="search_top">
+    <input class="top_input" focus="true" placeholder="请输入内容"/><a>搜索</a>
+  </view>
+</view>

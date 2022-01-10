@@ -1,0 +1,35 @@
+<view>
+  <view bindtap="quanju">
+    <block wx:if="{{userInfo.avatarUrl}}">
+      <image class="avatarurl" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickName">{{userInfo.nickName}}</text>
+      <button bindlongtap="onlogut">退出登录</button>
+    </block>
+    <block wx:else>
+      <image src="../../image/我的.png" class="avatarurl"></image>
+      <text class="nickName">未登录,请登录</text>
+    </block>
+    <!-- <button open-type="getPhoneNumber">获取手机号</button> -->
+    <!-- <button open-type="chooseAvatar">获取用户信息</button> -->
+    <button open-type="getUserInfo" bindtap="onGetuserInfo">登录</button>
+    <button bindtap="getUPil">登录getUserProfile</button>
+    <button open-type="contact">客服</button>
+    <button bindtap="hendleUser">获取数据</button>
+    <slider min="0" max="500" show-value="true" activeColor="#ff3eff" bindchange="a"></slider>
+
+
+      <view style="height: 100rpx;width: 400rpx;background-color: aqua;position: static;" bindlongpress="abc">
+        <block wx:if="{{abcd}}">
+        <view class="info" bindinput="shiqu">
+      <view class="info_d">
+        <view class="info_de" style="background-color: #dddddd;color: #000000;">设置常买</view>
+        <view class="info_de" style="background-color: #f7c00b;">移入收藏</view>
+        <view class="info_de" style="background-color: #ff8800;">看相似</view>
+        <view class="info_de">删除</view>
+      </view>
+         </view>
+  </block>
+    </view>
+
+  </view>
+</view>

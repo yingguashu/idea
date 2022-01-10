@@ -1,0 +1,55 @@
+/* view{ */
+/* 使用主题颜色 */
+/* color: var(--themeColor); */
+/* } */
+swiper {
+  width: 100%;
+  height: calc((100vw * 352 / 1920) * 2.5);
+}
+swiper image {
+  width: 100%;
+}
+.index_cate {
+  display: flex;
+}
+.index_cate navigator {
+  padding: 10rpx;
+  flex: 1;
+}
+.index_cate navigator image {
+  width: 70%;
+  margin-left: 25rpx;
+}
+.index_cate navigator text {
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  justify-content: center;
+  align-items: center;
+}
+.index_floor {
+  width: 100%;
+}
+.index_floor .floor_group .floor_list navigator {
+  float: left;
+  width: 50%;
+}
+.index_floor .floor_group .floor_list navigator image {
+  width: 100%;
+}
+.index_text {
+  margin-bottom: 20rpx;
+}
+.index_text text {
+  font-size: 50rpx;
+  justify-content: center;
+  align-items: center;
+}
+.text_te {
+  font-size: 30rpx;
+  color: gray;
+}
+.a {
+  height: 8rpx;
+  margin-bottom: 20rpx;
+  background-color: #bd1ed2;
+}
