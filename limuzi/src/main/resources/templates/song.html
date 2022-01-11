@@ -1,0 +1,26 @@
+<!--suppress ALL -->
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="utf-8" />
+    <head>
+
+    </head>
+    <body>
+    <h3>全部信息:</h3><h3 th:text="${session.song}"></h3>
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <th>id</th>
+            <th>introduction</th>
+            <th>pic</th>
+            <th>style</th>
+            <th>title6</th>
+        <tbody th:border="1" th:each="stat: ${session.song}">
+            <tr th:each="stat:${song}">
+                <td th:text="${stat.id}"></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <input type="hidden" name="song" id="songList" th:value="${session.song}"/>
+    </body>
+
+</html>
