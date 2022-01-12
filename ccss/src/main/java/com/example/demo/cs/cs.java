@@ -5,5 +5,6 @@ public class cs {
         System.out.println("第一行代码");
         System.out.println("这是hot-fix01");
         System.out.println("这是master合并后的代码");
+        System.out.println("这是hot-fix02");
     }
 }
