@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "../mybatis-3-mapper.dtd" >
+<mapper namespace="">
+    <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+    <body>
+<!--    所有的元素都会被templates元素接管  th：元素名-->
+    <h2 th:text="${msg}"></h2>
+<a href="/user/jia">转向</a>
+<!--    <h3 th:each="user:${users}" th:text="${user }"></h3>-->
+    <table th:each="user:${users}" border="1">
+        <tr>
+            <td th:text="${user}"></td>
+            <td>删除</td>
+        </tr>
+    </table>
+    </body>
+    </html>
+</mapper>
